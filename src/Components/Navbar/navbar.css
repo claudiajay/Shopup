@@ -1,0 +1,110 @@
+:root {
+  --yellow: #e6c744;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #c2c8da;
+  --bodyColor: #F5F5F5;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.13);
+
+    .logo{
+        color: var(--black);
+        font-weight: 600;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon{
+        font-size: 25px;
+        color: var(--black);
+        transform: translate(5px, 0);
+    }
+
+    @media screen and (max-width: 768px) {
+        .navBar {
+          position: absolute;
+          background: var(--white);
+          height: max-content;
+          width: 80%;
+          border-radius: 1rem;
+          top: -500rem;
+          left: 50%;
+          padding: 1rem;
+          transform: translateX(-50%);
+          z-index: 2000;
+          box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+          transition: 0.1s ease-in-out;
+        }
+      
+        .navLists {
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          margin: auto;
+          padding: 0.5rem 0;
+        }
+      
+        .navItem {
+          padding: 0.5rem 0;
+        }
+      
+        .navLink {
+          color: var(--black);
+          font-size: 22px;
+          font-weight: 500;
+        }
+      
+        .navLink:hover {
+          color: var(--grey);
+        }
+      
+        .btn {
+          margin-top: 1rem;
+        }
+      
+        .btn a {
+          font-weight: 600;
+        }
+      
+        .closeNavbar {
+          position: absolute;
+          top: 1rem;
+          right: 1.5rem;
+          color: var(--black);
+        }
+      
+        .closeNavbar:hover {
+          color: var(--grey);
+        }
+      
+        .activeNavbar {
+          top: 7rem;
+        }
+      
+        .toggleNavbar .icon {
+          font-size: 25px;
+          color: var(--black);
+        }
+      
+        .toggleNavbar .icon:hover {
+          color: var(--grey);
+        }
+
+    
+
+
+    }
+
+      
+}
