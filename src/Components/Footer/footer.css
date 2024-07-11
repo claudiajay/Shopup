@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    background-color: var(--black);
+    width: 100%;
+    height: 420px;
+    color: var(--white);
+    
+     
+}

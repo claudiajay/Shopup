@@ -3,7 +3,16 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section className="footerSection">
+      <footer className='footer flex'>
+        <div className="appInfo">
+          <h2>FASHION</h2>
+          <p>Complete your style with awesome clothes from us.</p>
+          
+        </div>
+
+      </footer>
+    </section>
   )
 }
 

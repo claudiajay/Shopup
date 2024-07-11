@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const removeNavbar = () => {
     setActive('navBar')
-  }
+  } 
 
   return (
     <section className="navBarSection">

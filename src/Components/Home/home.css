@@ -1,0 +1,8 @@
+.mainCard {
+    border: 1px solid blue;
+    border-color: blue;
+    background-attachment: grey;
+    position: absolute;
+    margin-top: 80px;
+    
+}
