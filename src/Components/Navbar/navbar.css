@@ -4,9 +4,9 @@
   --black: #000000;
   --grey: #c2c8da;
   --bodyColor: #F5F5F5;
-} 
+}
 
-.header { 
+.header {
     position: fixed;
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@
         .btn a {
           font-weight: 600;
         }
-      
+       
         .closeNavbar {
           position: absolute;
           top: 1rem;
