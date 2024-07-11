@@ -1,0 +1,32 @@
+.footerDiv {
+  position: absolute;
+  background-color: var(--black);
+  width: 100%;
+  height: 310px;
+  margin-top: 50%;
+  margin-bottom: 0;
+}
+
+.mainContainer {
+  padding: 50px 50px;
+}
+
+
+.title {
+  color: var(--white);
+}
+
+.subtitle {
+  color: var(--white);
+}
+
+.iconDiv {
+  display: flex;
+  flex-direction: row;
+  column-gap: 7px;
+}
+
+.icon {
+  height: 52px;
+  width: 52px;
+}

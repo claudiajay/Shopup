@@ -52,7 +52,7 @@ const Navbar = () => {
               <a href="#" className="navLink">
                 LIFESTYLE
               </a>
-            </li>
+            </li> 
 
             <button className="btn">
               <a href="#">SIGN UP</a>
@@ -68,6 +68,7 @@ const Navbar = () => {
           <TbGridDots className="icon" />
         </div>
       </header>
+      
     </section>
   );
 };
