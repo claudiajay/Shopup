@@ -8,25 +8,61 @@
 }
 
 .mainContainer {
-  padding: 50px 50px;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+
 }
 
 
+.companySocials {
+  width: 290px;
+  line-height: 42px;
+}
+   
+
+
+.companyInfo {
+  display: flex;
+  flex-direction: row;
+  
+}
+
 .title {
   color: var(--white);
+  padding-bottom: 15px;
 }
 
 .subtitle {
   color: var(--white);
+  line-height: 20px;
 }
 
 .iconDiv {
   display: flex;
   flex-direction: row;
-  column-gap: 7px;
+  padding-top: 20px;
 }
 
 .icon {
   height: 52px;
   width: 52px;
+}
+.one{ 
+  margin-left: 16rem;
+  line-height: 39px;
+}
+.two{
+  margin-left: 10rem;
+  line-height: 39px;
+}
+
+
+.three {
+  margin-left: 8rem;
+  line-height: 39px;
+}
+
+.footerText {
+  color: rgb(166, 160, 160);
 }
